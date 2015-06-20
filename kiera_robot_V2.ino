@@ -47,16 +47,16 @@ void setup() {
             case 'R':
             rechts();
             break;
-            case 'a': // is in asci code 97
+            case 'a': // this is in asci code 97 / turns kiera 180° when recieving 'a'
             rechts180();
             break; 
-            case 100: // is kleine d 
+            case 100: // this asci code is the letter d > + speed
             S = S + 10;
             if (S > 70) {
               S = 70;
             }
             break; 
-            case 99: // is kleine c
+            case 99: // this asci code is the letter c < - speed 
             S = S - 10;
             break; 
 
